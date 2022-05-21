@@ -19,7 +19,7 @@ def main():
     StrJson = re.findall(resStr, res, re.S)
     for str in StrJson:
         Strend += str
-    print(Strend)
+    print(Strend.encode(encoding='utf-8'))
 
 
 main()
